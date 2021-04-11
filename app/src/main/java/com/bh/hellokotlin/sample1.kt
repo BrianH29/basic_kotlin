@@ -6,7 +6,8 @@ fun main(){
     string_template();
     checkNum(1)
 
-    forAndWhile()
+    arr()
+    //forAndWhile()
 }
 
 /**
@@ -89,27 +90,7 @@ fun checkNum(score : Int){
     }
 }
 
-/**
- * 5. Array & List
- * - List - read only
- * - MutableList - read & write
- */
 
-fun arr(){
-    val array = arrayOf(1,2,3)
-    val list = listOf(1,2,3)
-
-    val array2 = arrayOf(1,"d",3,4f)
-    val list2 = listOf(1,"d",11L)
-
-    array[0] = 3
-
-    val result = list.get(0)
-
-    val arrayList = arrayListOf<Int>()
-    arrayList.add(10)
-    arrayList.add(20)
-}
 
 /**
  * 6. for & while
