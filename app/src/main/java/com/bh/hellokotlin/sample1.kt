@@ -6,8 +6,7 @@ fun main(){
     string_template();
     checkNum(1)
 
-    arr()
-    //forAndWhile()
+     forAndWhile()
 }
 
 /**
@@ -140,5 +139,12 @@ fun forAndWhile(){
     while(index < 10){
         println("current index : ${index}")
         index++
+    }
+
+    for (except in 1..10){
+        if(except>3 && except<8){
+            continue
+        }
+        println("continue > 현재 index는 $except 입니다.")
     }
 }
